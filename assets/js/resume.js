@@ -19,7 +19,7 @@
 
     getResumeJSON: function(){
       $.ajax({
-        url: 'http://localhost:3000/api/v1/resume',
+        url: 'https://awesammcoder-github-io-server.herokuapp.com/api/v1/resume',
         type: 'GET',
         dataType: 'json',
         success: data => {
@@ -36,7 +36,6 @@
     },
 
     setValues: function(data){
-      console.log(data);
       var fragments = '';
       var s = data.sections;
       var h = s.heading;
