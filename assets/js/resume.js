@@ -26,6 +26,7 @@
           if(!data){
             this.getResumeJSON();
           }else{
+            document.getElementById('loader-wrapper').style.display = 'none';
             this.setValues(data);
           }
         },
