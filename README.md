@@ -18,7 +18,7 @@ ___
 ## His skill set?
 
 #### Personal Skills
-> Able to build backend system and implement it in frontent <br>
+> Able to build backend system and implement it in frontend <br>
 Database handling and data integrity <br>
 Exposed in version control (GIT) <br>
 Able to consume 3rd Party API's <br>
@@ -26,7 +26,7 @@ RESTful API implementation <br>
 Exposed in JSON format <br>
 Has background in WebRTC, WebSockets, and Sockets.IO <br>
 Fluent in Javascript, JS Promises, JS Callbacks, Javascript OOP <br>
-Familiar with MVC, MVVC software architecture 
+Familiar with MVC, and MVVC softwares architecture 
 Has Background in IoT development (Arduino)
 
 #### Development Languages
