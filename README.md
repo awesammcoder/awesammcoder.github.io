@@ -16,15 +16,26 @@ ___
 ___
 
 ## His skill set?
-#### Programming Languages
-> NodeJS | Javascript | PHP | Elixir | VB.Net | Java | Python <br>
-MySQL | PostgreSQL
+#### Development Languages
+> NodeJS | PHP | Elixir | VB.Net | Java | Python <br>
+MySQL | PostgreSQL <br>
+HTML5 | Javascript | CSS3 | JQuery <br>
+Bootstrap | Materialize | Bootflat | UIKit
 
 #### Frameworks
 > **NodeJS:** ExpressJS | EmberJS | AngularJS <br>
 **PHP:** Codeigniter | CakePHP | Laravel | CSZCMS | Wordpress <br>
 **Hybrid Mobile Applications:** Phonegap | Ionic | Cordova <br>
 **Elixir:** Phoenix
+
+#### Technologies
+> WebSockets | WebRTC | Socket.IO | PeerJS <br>
+AJAX | JSON | Javascript Web Tokens | API's <br>
+Javascript Promises | Callbacks | RESTful API's <br>
+WP Plugins | Google API | Facebook API <br>
+Firebase
+
+
 
 #### Softwares
 > Photoshop | Illustrator | Premiere | CorelDraw
