@@ -22,19 +22,19 @@ MySQL | PostgreSQL <br>
 HTML5 | Javascript | CSS3 | JQuery <br>
 Bootstrap | Materialize | Bootflat | UIKit
 
-#### Frameworks
+#### Frameworks & Libraries
 > **NodeJS:** ExpressJS | EmberJS | AngularJS <br>
 **PHP:** Codeigniter | CakePHP | Laravel | CSZCMS | Wordpress <br>
 **Hybrid Mobile Applications:** Phonegap | Ionic | Cordova <br>
 **Elixir:** Phoenix
+**Python:** Flask | BeautifulSoup
 
 #### Technologies
 > WebSockets | WebRTC | Socket.IO | PeerJS <br>
 AJAX | JSON | Javascript Web Tokens | API's <br>
 Javascript Promises | Callbacks | RESTful API's <br>
 WP Plugins | Google API | Facebook API <br>
-Firebase
-
+Firebase (Realtime Database)
 
 
 #### Softwares
