@@ -26,7 +26,8 @@ Bootstrap | Materialize | Bootflat | UIKit
 > **NodeJS:** ExpressJS | EmberJS | AngularJS <br>
 **PHP:** Codeigniter | CakePHP | Laravel | CSZCMS | Wordpress <br>
 **Hybrid Mobile Applications:** Phonegap | Ionic | Cordova <br>
-**Elixir:** Phoenix
+**Elixir:** Phoenix <br>
+**.Net: ** ASP.Net <br>
 **Python:** Flask | BeautifulSoup
 
 #### Technologies
@@ -34,7 +35,7 @@ Bootstrap | Materialize | Bootflat | UIKit
 AJAX | JSON | Javascript Web Tokens | API's <br>
 Javascript Promises | Callbacks | RESTful API's <br>
 WP Plugins | Google API | Facebook API <br>
-Firebase (Realtime Database)
+Firebase (Realtime Database) <br>
 
 
 #### Softwares
