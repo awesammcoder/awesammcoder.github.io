@@ -7,34 +7,22 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <nav class="app-nav no-badge">
-    <ul>
-      <li><a href="/resume">Resume</a></li>
-      <li class="link">Social Links
-        <ul>
-          <li><a href="https://medium.com/@awesammcoder">Medium</a></li>
-          <li><a href="https://github.com/awesammcoder">Github</a></li>
-          <li><a href="https://codepen.io/awesammcoder">Codepen</a></li>
-          <li><a href="https://facebook.com/apa.sammuel">Facebook</a></li>
-          <li><a href="https://instagram.com/awesammday">Instagram</a></li>
-          <li><a href="https://twitter.com/awesammday">Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/sammuel-apa-ba68a4124/">LinkedIn</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
   <div id="app"></div>
+
   <script>
     window.$docsify = {
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 6,
       search: {
         placeholder: 'What do you want to know...',
         noData: `Sorry! I'm not aware of it too.`
       },
-      name: '',
-      repo: '',
-
+      name: 'Awesamm Coder',
+      repo: 'awesammcoder/awesammcoder.github.io'
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
