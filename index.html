@@ -14,17 +14,23 @@
 
   <script>
     window.$docsify = {
+      nameLink: '/',
+      auto2top: true,
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 2,
       search: {
         placeholder: 'What do you want to know...',
-        noData: `Sorry! I'm not aware of it too.`
+        noData: `Sorry! I'm not aware of it too.`,
+        paths: ['/', '/tutorials/']
       },
       name: 'Awesamm Coder',
-      repo: 'awesammcoder/awesammcoder.github.io'
+      repo: 'awesammcoder/awesammcoder.github.io',
+      notFoundPage: '_not-found.md',
+      ga: 'UA-125141087-1'
     }
   </script>
+
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
@@ -37,6 +43,7 @@
   <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-jsx.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
 
 </body>
 </html>
