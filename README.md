@@ -26,7 +26,7 @@ RESTful API implementation <br>
 Exposed in JSON format <br>
 Has background in WebRTC, WebSockets, and Sockets.IO <br>
 Fluent in Javascript, JS Promises, JS Callbacks, Javascript OOP <br>
-Familiar with MVC, and MVVC softwares architecture
+Familiar with MVC, and MVVC softwares architecture <br>
 Has Background in IoT development (Arduino)
 
 #### Development Languages
