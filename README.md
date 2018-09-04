@@ -2,7 +2,7 @@
 
 ## What is this?
 >  
-?> **awesammcoder.github.io** is a compilation of all projects, tutorials, and things which are significant for a web developer, mobile application developer, and software developer.  
+?> **awesammcoder.github.io** is a site where projects, tutorials, and things that has great importance for a mobile, software, and web developer compiled together.  
 
 ___
 
@@ -26,7 +26,7 @@ RESTful API implementation <br>
 Exposed in JSON format <br>
 Has background in WebRTC, WebSockets, and Sockets.IO <br>
 Fluent in Javascript, JS Promises, JS Callbacks, Javascript OOP <br>
-Familiar with MVC, and MVVC softwares architecture 
+Familiar with MVC, and MVVC softwares architecture
 Has Background in IoT development (Arduino)
 
 #### Development Languages
