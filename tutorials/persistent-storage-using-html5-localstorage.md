@@ -1,6 +1,6 @@
-# Persistent Storage using HTML5 localStorage {docsify-ignore-all}
+# Persistent Storage using HTML5 localStorage
 
-## Persistent Storage
+## Persistent Storage  {docsify-ignore}
 
 **Persistent storage** is any data storage device that retains data after power to that device is shutoff. It is also sometimes referred to as non-volatile storage.
 
@@ -15,7 +15,7 @@
 * Diary
 * so on and so forth...   
 
-## How to use localStorage
+## Methods of localStorage {docsify-ignore}
 Using **localStorage** is pretty easy, there are two basic methods for using it, one for setting a record and the second one was for fetching/getting a record.
 
 ```js
@@ -66,7 +66,7 @@ class MyStorage {
 }
 ```
 
-## Usage
+## Usage of MyStorage class {docsify-ignore}
 > Create first an instance of MyStorage class, from there you are now able to use its methods
 
 ```js
