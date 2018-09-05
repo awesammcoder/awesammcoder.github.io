@@ -11,6 +11,7 @@
     let search_paths = [];
     const paths = {
       tutorials: [
+        'git-flow',
         'persistent-storage-using-html5-localstorage',
         'chatbot-using-rivescript-js'
       ]
