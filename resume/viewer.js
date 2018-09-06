@@ -10051,7 +10051,7 @@ exports.ViewHistory = ViewHistory;
 "use strict";
 
 
-var DEFAULT_URL = 'Resume.pdf';
+var DEFAULT_URL = '../resume.pdf';
 ;
 var pdfjsWebApp = void 0;
 {
