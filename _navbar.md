@@ -7,4 +7,4 @@
   * [Twitter](//twitter.com/awesammday)
   * [LinkedIn](//linkedin.com/in/sammuel-apa-ba68a4124)  
 
-* [Resume](//awesammcoder.github.io/resume)
+* [Resume](//awesammcoder.github.io/resume/)
