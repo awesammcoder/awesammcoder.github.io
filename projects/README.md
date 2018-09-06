@@ -1,7 +1,7 @@
 # :trophy: Projects
 > The following below are list of my handled and has contributed projects. Technologies used are also stated each below, and the official site if applicable.
 
-!> **Disclaimer!** All information, representations, links, or other messages my be changed by the current project manager at any time without prior notice. Stated technologies are used by the time i was handling each projects.
+!> **Disclaimer!** All information, representations, links, codes, or other messages my be changed by the current project manager at any time without prior notice. Stated technologies are used by that time i was handling each projects.
 
 ___
 
