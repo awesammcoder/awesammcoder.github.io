@@ -13,7 +13,7 @@ ___
 ## Professional Freddy
 ?> Professional Freddy is a services management platform with variety scope of services. <br>
 **Official site: ** [www.professionalfreddy.me](//vamp.me) <br>
-**Technologies: PHP | Codeigniter | CSZCMS | MySQL | PHPMailer | Pipedrive | SMSGlobal | Facebook API | Google API**
+**Technologies: PHP | Codeigniter | CSZCMS | MySQL | Mandrill | Pipedrive | SMSGlobal | Facebook API | Google API**
 
 ## The Bithub
 ?> The Bithub is an e-commerce platform about electronic/computer games. <br>
