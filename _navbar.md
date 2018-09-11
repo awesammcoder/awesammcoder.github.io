@@ -5,6 +5,6 @@
   * [Facebook](//facebook.com/apa.sammuel)
   * [Instagram](//instagram.com/awesammday)
   * [Twitter](//twitter.com/awesammday)
-  * [LinkedIn](//linkedin.com/in/sammuel-apa-ba68a4124)  
+  * [LinkedIn](//linkedin.com/in/sammuelapa)  
 
 * [Resume](//awesammcoder.github.io/resume/)
