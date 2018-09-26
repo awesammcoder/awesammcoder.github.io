@@ -2,7 +2,7 @@
 
 ?> The following are programming references that can be used for improving your self in the field of programming. Credits goes to [GoalKicker.com](//goalkicker.com) for the providing free programming books.
 
-* [.Net Framework Notes for Professionals](//awesammcoder.github.io/references#programming/DotNETFrameworkNotesForProfessionals.pdf) <br>
+* [.Net Framework Notes for Professionals](//awesammcoder.github.io/references#/programming/DotNETFrameworkNotesForProfessionals.pdf) <br>
 * [Algorithms Notes for Professionals](//awesammcoder.github.io/references#programming/AlgorithmsNotesForProfessionals.pdf) <br>
 * [Android Notes for Professionals](//awesammcoder.github.io/references#programming/AndroidNotesForProfessionals.pdf) <br>
 * [Angular 2+ Notes for Professionals](//awesammcoder.github.io/references#programming/Angular2NotesForProfessionals.pdf) <br>
