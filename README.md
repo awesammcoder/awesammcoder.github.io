@@ -59,6 +59,5 @@ ___
 ## Other Information
 #### Contact Details
 ?> **Email:** sammuellagatapa@gmail.com <br>
-**Mobile:** +63977-016-6977 <br>
 **Home Address: ** Phase 1, Bangal, Dinalupihan, Bataan
 
