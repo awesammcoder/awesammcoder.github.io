@@ -1,3 +1,7 @@
 blockquote p {
   font-weight: normal !important;
 }
+
+blockquote p img {
+  max-width: 30%;
+}

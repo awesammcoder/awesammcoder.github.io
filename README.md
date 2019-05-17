@@ -36,14 +36,15 @@ HTML5 | Javascript | CSS3 | JQuery <br>
 Bootstrap | Materialize | Bootflat | UIKit
 
 #### Frameworks & Libraries
-> **NodeJS:** ExpressJS | EmberJS | AngularJS <br>
+> **NodeJS:** ExpressJS | EmberJS | AngularJS | React.js<br>
 **PHP:** Codeigniter | CakePHP | Laravel | CSZCMS | Wordpress <br>
 **Hybrid Mobile Applications:** Phonegap | Ionic | Cordova <br>
 **Elixir:** Phoenix <br>
-**.Net: ** ASP.Net <br>
-**Python:** Flask | BeautifulSoup
+**.Net:** ASP.Net <br>
+**Python:** Flask | BeautifulSoup <br>
+**Native Mobile Applications:** React-Native | Expo
 
-#### Technologies
+#### Web Technologies
 > WebSockets | WebRTC | Socket.IO | PeerJS <br>
 AJAX | JSON | Javascript Web Tokens | API's <br>
 Javascript Promises | Callbacks | RESTful API's <br>
@@ -51,7 +52,7 @@ WP Plugins | Google API | Facebook API <br>
 Firebase (Realtime Database) <br>
 IoT Development (Arduino)
 
-#### Softwares
+#### Graphics Softwares
 > Photoshop | Illustrator | Premiere | CorelDraw
 
 ___
@@ -59,5 +60,4 @@ ___
 ## Other Information
 #### Contact Details
 ?> **Email:** sammuellagatapa@gmail.com <br>
-**Home Address: ** Phase 1, Bangal, Dinalupihan, Bataan
-
+**Home Address: ** Phase 2, Bangal, Dinalupihan, Bataan
