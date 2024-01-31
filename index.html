@@ -1,45 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Awesamm Coder | Home</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- og tags -->
-  <meta property="og:title" content="Sammuel Apa - General Portfolio"/>
-  <meta property="og:image" content="https://avatars3.githubusercontent.com/u/36878272"/>
-  <meta property="og:site_name" content="Awesamm Coder"/>
-  <meta property="og:description" content="Comiplation of projects, portfolio, tutorials, and cheatsheets." />
+    <title>Samm | Fullstack Developer</title>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <div id="app"></div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <script src="/assets/js/app.js"></script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-elixir.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-jsx.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-1246255106102526",
-      enable_page_level_ads: true
-    });
-  </script>
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+  </head>
+  <body>
 
-</body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class='uil uil-user'></i> awesammcoder</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">@awesammcoder</span>
+                                    <span class="animated-item">Web Designer</span>
+                                    <span class="animated-item">Fullstack Developer</span>
+                                </div>
+                        </h1>
+
+                        <p>Experienced Fullstack Developer with <span id="exp-years"></span> years in web and mobile development. Proficient in JavaScript, PHP, Python, and a bit of Elixir, with expertise in Vue.js, Laravel, ExpressJS, SASS, and Tailwind CSS.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="/resume.pdf" download="Sammuel_Apa_Resume" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>Digital Solutions Crafted from Code and Creativity</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2023</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>IT Manager | Fullstack Developer</span><small>1001 Technology Solutions</small></h3>
+                                  <p>Align technology with business goals, overseeing software development and ensuring operational efficiency.
+                                    Lead end-to-end software development, ensuring robust, scalable solutions meet organizational needs.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2019</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Assistant IT Manager | Fullstack Developer</span><small>Lihao International Ltd. Co.</small></h3>
+                                <p>Leading the development team and creating in-house applications for web and mobile platforms.
+                                  Ensuring smooth data operations and maintaining system integrity.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2018</span>
+                          </div>
+                          <div class="timeline-info">
+                              <h3><span>Software Developer</span><small>Saver6.com</small></h3>
+                              <p>Designing and developing new applications to upgrade legacy mobile apps.
+                                Implementing modern technologies for enhanced functionalities and user experiences.</p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2018</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3><span>Software Engineer II</span><small>Cloudstaff Inc. / Visual Amplifiers</small></h3>
+                            <p>Developing an influencer platform for brands, focusing on creating a seamless experience for users.
+                              Integrating APIs, particularly Instagram, to enable seamless connectivity and data synchronization.</p>
+                        </div>
+                    </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2017</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Bachelor of Science in Computer Science</span><small>Gordon College</small></h3>
+                                  <p>Studied core principles of computer science, including algorithms, data structures, and software engineering. Developed strong problem-solving skills and gained hands-on experience in programming languages and system architecture. Prepared for roles in software development and technology innovation.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2013</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Secondary Education</span><small>Olongapo City National High School</small></h3>
+                                <p>Completed secondary schooling with a focus on core subjects and foundational knowledge. Developed essential skills in communication, critical thinking, and time management. Established a strong academic foundation for further education and career pursuits.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">You can contact me at</h3>
+                  <p class="footer-text mb-0">+639166501154</p>
+                  <p><a href="mailto:awesammcoder@gmail.com">awesammcoder@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <li><a href="#" class="uil" data-toggle="tooltip" data-placement="left" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.636 3.636 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2.001 2.001 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.104 2.104 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.892 3.892 0 0 1 1.025-2.688a3.594 3.594 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.427 9.427 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.593 3.593 0 0 1 .1 2.65a3.869 3.869 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.562 4.937a2.368 2.368 0 0 1 .674 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247"/></svg></a></li>
+                     <li><a href="https://wa.me/639166501154" class="uil" data-toggle="tooltip" data-placement="left" title="Whatsapp"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 14c-.2-.1-1.5-.7-1.7-.8c-.2-.1-.4-.1-.6.1c-.2.2-.6.8-.8 1c-.1.2-.3.2-.5.1c-.7-.3-1.4-.7-2-1.2c-.5-.5-1-1.1-1.4-1.7c-.1-.2 0-.4.1-.5c.1-.1.2-.3.4-.4c.1-.1.2-.3.2-.4c.1-.1.1-.3 0-.4c-.1-.1-.6-1.3-.8-1.8c-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3c-.6.6-.9 1.3-.9 2.1c.1.9.4 1.8 1 2.6c1.1 1.6 2.5 2.9 4.2 3.7c.5.2.9.4 1.4.5c.5.2 1 .2 1.6.1c.7-.1 1.3-.6 1.7-1.2c.2-.4.2-.8.1-1.2zm2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2c5.5 0 9.9-4.4 9.9-9.9c.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3c-1.5 0-2.9-.4-4.2-1.1l-.3-.2l-3.1.8l.8-3l-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"/></svg></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="mailto:awesammcoder@gmail.com" method="post" enctype="text/plain">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2024 @awesammcoder <br> All rights reserved</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
