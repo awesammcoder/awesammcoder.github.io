@@ -1,7 +1,7 @@
 (function ($) {
 
   "use strict";
-  let experience_years = new Date().getFullYear() - 2024 + 8;
+  let experience_years = new Date().getFullYear() - 2024 + 7;
   $("#exp-years").text(experience_years + '+'); 
 
     // COLOR MODE

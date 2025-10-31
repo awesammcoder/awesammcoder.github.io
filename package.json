@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/tooplate-style.scss css/tooplate-style.css",
+    "sass:watch": "sass --watch sass/tooplate-style.scss:css/tooplate-style.css",
+    "serve": "http-server -p 8000",
+    "dev": "npm run sass:watch & npm run serve"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
