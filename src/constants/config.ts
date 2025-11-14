@@ -6,7 +6,7 @@ export const PERSONAL_INFO = {
   email: "awesammcoder@gmail.com",
   phone: "+63-916-650-1154",
   location: "San Rafael, Macabebe, Pampanga, Philippines",
-  profileImage: "https://awesammcoder.github.io/images/personal/awesammcoder.jpg",
+  profileImage: require("../assets/images/personal/awesammcoder.jpg"),
   yearsOfExperience: 8,
 };
 
