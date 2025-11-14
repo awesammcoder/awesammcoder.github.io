@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd96b7ab.css",
+    "main.js": "/static/js/main.1a288364.js",
+    "static/js/453.32324bdf.chunk.js": "/static/js/453.32324bdf.chunk.js",
+    "static/media/freight-calculator.png": "/static/media/freight-calculator.524c5b68af3bf2e3b11f.png",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/wallet-app.png": "/static/media/wallet-app.1eacf612a4dd9a5bee1d.png",
+    "static/media/parakeet.png": "/static/media/parakeet.07c3fea9505cb38b5ce4.png",
+    "static/media/vamp.png": "/static/media/vamp.c4cdf79c0f0cfcdd10dd.png",
+    "static/media/pg-1.png": "/static/media/pg-1.aa0e4be6d389938a47f6.png",
+    "static/media/expenses.png": "/static/media/expenses.934ccd9f5da18ff39854.png",
+    "static/media/pg-2.png": "/static/media/pg-2.a3088567fda8cd0374bc.png",
+    "static/media/cms-1.png": "/static/media/cms-1.984cf2c49a01e240fc08.png",
+    "static/media/cms-2.png": "/static/media/cms-2.c789ee18e41d0b7ec407.png",
+    "index.html": "/index.html",
+    "main.cd96b7ab.css.map": "/static/css/main.cd96b7ab.css.map",
+    "main.1a288364.js.map": "/static/js/main.1a288364.js.map",
+    "453.32324bdf.chunk.js.map": "/static/js/453.32324bdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd96b7ab.css",
+    "static/js/main.1a288364.js"
+  ]
+}
