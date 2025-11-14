@@ -7,6 +7,7 @@ const keep = new Set([
     'node_modules',
     'old',
     'public',
+    'scripts',
     'src',
     'LICENSE',
     'tsconfig.json',
