@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "node scripts/cleanup.mjs && npm run build && node scripts/move-to-root.mjs && git add . && git commit -m \"deployed new changes\" && git push",
+    "deploy": "node scripts/cleanup.mjs && npm run build && node scripts/move-to-root.mjs && git push",
     "serve": "node_modules/.bin/http-server . -p 8000"
   },
   "eslintConfig": {
