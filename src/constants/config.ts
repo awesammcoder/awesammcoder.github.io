@@ -152,6 +152,26 @@ export const PROJECTS = [
     link: "",
   },
   {
+    id: "aifilter",
+    title: "AIFilter – Semantic Email Filtering with AI",
+    description: "AIFilter is a next-generation email filtering system that replaces rigid syntax rules with semantic intelligence. Powered by ChatGPT and designed with ExpressJS, TypeScript, and Webhooks, it understands the meaning behind messages to classify and route emails more accurately. Whether it's payment notifications or nuanced alerts, AIFilter adapts to context, sender variation, and phrasing—offering smarter automation for modern inboxes. Built for scalability and clarity, it showcases how AI can transform traditional workflows into intelligent systems.",
+    images: [
+      require("../assets/images/projects/aifilter.png"),
+    ],
+    technologies: ["ExpressJS", "React", "TailwindCSS", "TypeScript", "ChatGPT","Webhooks"],
+    link: "https://aifilter.email",
+  },
+  {
+    id: "jabberwokcy",
+    title: "Jabberwocky – Real-Time Multilingual ChatBot for Twitch",
+    description: "Jabberwocky is a real-time AI-powered chatbot designed to bridge language barriers in live Twitch streams. Built with ExpressJS, TypeScript, and Webhooks, it integrates ChatGPT for contextual understanding and Google Translate for accurate multilingual output. By leveraging the Twitch API, Jabberwocky listens to chat events, translates messages on the fly, and responds with natural, localized replies—enhancing accessibility and engagement for global audiences.",
+    images: [
+      require("../assets/images/projects/jabberwocky.png"),
+    ],
+    technologies: ["ExpressJS", "OpenAI - ChatGPT", "Webhooks", "Google TranslateAPI", "Twitch API"],
+    link: "",
+  },
+  {
     id: "vamp",
     title: "VAMP - Influencer Marketing Platform",
     description: "Full stack influencer marketing platform connecting brands with social media influencers. Built with Elixir (Phoenix Framework), EmberJS, and Instagram API integration.",
@@ -173,6 +193,17 @@ export const PROJECTS = [
     link: "",
   },
   {
+    id: "cms",
+    title: "Casino Management System",
+    description: "Full-featured content management system built with Vue.js and Node.js. Includes rich text editing, media management, user roles, and SEO optimization tools.",
+    images: [
+      require("../assets/images/projects/cms-2.png"),
+      require("../assets/images/projects/cms-1.png"),
+    ],
+    technologies: ["Vue.js", "Node.js", "MongoDB"],
+    link: "",
+  },
+  {
     id: "wallet-app",
     title: "Wallet App - Digital Wallet Solution",
     description: "Modern digital wallet application for secure financial transactions. Built with React Native, Expo, and integrated with payment gateways for seamless user experience.",
@@ -180,17 +211,6 @@ export const PROJECTS = [
       require("../assets/images/projects/wallet-app.png")
     ],
     technologies: ["React Native", "Expo", "Payment Gateway"],
-    link: "",
-  },
-  {
-    id: "cms",
-    title: "Custom CMS Platform",
-    description: "Full-featured content management system built with Vue.js and Node.js. Includes rich text editing, media management, user roles, and SEO optimization tools.",
-    images: [
-      require("../assets/images/projects/cms-1.png"),
-      require("../assets/images/projects/cms-2.png"),
-    ],
-    technologies: ["Vue.js", "Node.js", "MongoDB"],
     link: "",
   },
   {

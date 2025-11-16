@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ada46c50.css",
-    "main.js": "/static/js/main.c7777052.js",
+    "main.css": "/static/css/main.818596e9.css",
+    "main.js": "/static/js/main.0561f662.js",
     "static/js/453.32324bdf.chunk.js": "/static/js/453.32324bdf.chunk.js",
+    "static/media/aifilter.png": "/static/media/aifilter.770625d7e833381a66d6.png",
+    "static/media/jabberwocky.png": "/static/media/jabberwocky.971dd5474d70728423b4.png",
     "static/media/freight-calculator.png": "/static/media/freight-calculator.524c5b68af3bf2e3b11f.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
@@ -16,12 +18,12 @@
     "static/media/cms-2.png": "/static/media/cms-2.c789ee18e41d0b7ec407.png",
     "static/media/awesammcoder.jpg": "/static/media/awesammcoder.17c4dbf4b578e4af8fda.jpg",
     "index.html": "/index.html",
-    "main.ada46c50.css.map": "/static/css/main.ada46c50.css.map",
-    "main.c7777052.js.map": "/static/js/main.c7777052.js.map",
+    "main.818596e9.css.map": "/static/css/main.818596e9.css.map",
+    "main.0561f662.js.map": "/static/js/main.0561f662.js.map",
     "453.32324bdf.chunk.js.map": "/static/js/453.32324bdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ada46c50.css",
-    "static/js/main.c7777052.js"
+    "static/css/main.818596e9.css",
+    "static/js/main.0561f662.js"
   ]
 }
