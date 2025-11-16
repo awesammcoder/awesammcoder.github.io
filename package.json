@@ -36,7 +36,8 @@
     "eject": "react-scripts eject",
     "cleanup": "node scripts/cleanup.mjs",
     "move2root": "node scripts/move-to-root.mjs",
-    "deploy": "claude /commit && git push",
+    "commit": "git add . && git diff --staged > diff.txt && COMMIT_MSG=$(claude \"/commit\" < diff.txt) && git commit -m \"$COMMIT_MSG\"",
+    "deploy": "npm run commit && git push",
     "serve": "node_modules/.bin/http-server . -p 8000"
   },
   "eslintConfig": {
