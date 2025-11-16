@@ -18,8 +18,45 @@
     color: white;
   }
 
-  fieldset {
+  // Fix input text visibility - comprehensive override
+  .MuiTextField-root {
     background-color: white;
+    border-radius: 4px;
+  }
+
+  .MuiInputBase-root {
+    background-color: white !important;
+    color: #0d1116 !important;
+  }
+
+  .MuiInputBase-input {
+    color: #0d1116 !important;
+    -webkit-text-fill-color: #0d1116 !important;
+  }
+
+  input, textarea {
+    color: #0d1116 !important;
+    -webkit-text-fill-color: #0d1116 !important;
+  }
+
+  .MuiOutlinedInput-input {
+    color: #0d1116 !important;
+  }
+
+  .MuiInputLabel-root {
+    color: rgba(13, 17, 22, 0.7) !important;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #5000ca !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: rgba(13, 17, 22, 0.7) !important;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    color: #d32f2f !important;
   }
 }
 

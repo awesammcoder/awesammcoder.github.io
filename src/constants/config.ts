@@ -37,6 +37,16 @@ export const RESUME = {
   fileName: "Sammuel_Apa_Resume",
 };
 
+// Calendly Booking
+export const CALENDLY = {
+  url: "https://calendly.com/awesammcoder/work-opportunities",
+};
+
+// Contact Form
+export const CONTACT_FORM = {
+  formspreeEndpoint: "https://formspree.io/f/xdkypwzj",
+};
+
 // Work Experience
 export const WORK_EXPERIENCE = [
   {

@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
-import { PERSONAL_INFO } from '../constants/config';
+import { PERSONAL_INFO, CONTACT_FORM } from '../constants/config';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
+import Alert from '@mui/material/Alert';
 
 function Contact() {
 
@@ -17,37 +17,50 @@ function Contact() {
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
 
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+
   const form = useRef();
 
-  const sendEmail = (e: any) => {
+  const sendEmail = async (e: any) => {
     e.preventDefault();
 
     setNameError(name === '');
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
+    if (name !== '' && email !== '' && message !== '') {
+      setIsSubmitting(true);
+      setSubmitStatus('idle');
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+      try {
+        const response = await fetch(CONTACT_FORM.formspreeEndpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+          }),
+        });
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+        if (response.ok) {
+          setSubmitStatus('success');
+          setName('');
+          setEmail('');
+          setMessage('');
+        } else {
+          setSubmitStatus('error');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+        setSubmitStatus('error');
+      } finally {
+        setIsSubmitting(false);
+      }
+    }
   };
 
   return (
@@ -61,6 +74,19 @@ function Contact() {
             <p style={{ margin: '5px 0' }}><strong>Phone:</strong> <a href={`tel:${PERSONAL_INFO.phone}`}>{PERSONAL_INFO.phone}</a></p>
             <p style={{ margin: '5px 0' }}><strong>Location:</strong> {PERSONAL_INFO.location}</p>
           </div>
+
+          {submitStatus === 'success' && (
+            <Alert severity="success" style={{ marginBottom: '20px' }}>
+              Thank you! Your message has been sent successfully. I'll get back to you soon!
+            </Alert>
+          )}
+
+          {submitStatus === 'error' && (
+            <Alert severity="error" style={{ marginBottom: '20px' }}>
+              Oops! Something went wrong. Please try again or email me directly.
+            </Alert>
+          )}
+
           <Box
             ref={form}
             component="form"
@@ -80,6 +106,15 @@ function Contact() {
                 }}
                 error={nameError}
                 helperText={nameError ? "Please enter your name" : ""}
+                InputProps={{
+                  style: { backgroundColor: 'white' }
+                }}
+                inputProps={{
+                  style: { color: '#0d1116' }
+                }}
+                InputLabelProps={{
+                  style: { color: 'rgba(13, 17, 22, 0.7)' }
+                }}
               />
               <TextField
                 required
@@ -92,6 +127,15 @@ function Contact() {
                 }}
                 error={emailError}
                 helperText={emailError ? "Please enter your email or phone number" : ""}
+                InputProps={{
+                  style: { backgroundColor: 'white' }
+                }}
+                inputProps={{
+                  style: { color: '#0d1116' }
+                }}
+                InputLabelProps={{
+                  style: { color: 'rgba(13, 17, 22, 0.7)' }
+                }}
               />
             </div>
             <TextField
@@ -108,9 +152,23 @@ function Contact() {
               }}
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
+              InputProps={{
+                style: { backgroundColor: 'white' }
+              }}
+              inputProps={{
+                style: { color: '#0d1116' }
+              }}
+              InputLabelProps={{
+                style: { color: 'rgba(13, 17, 22, 0.7)' }
+              }}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
+            <Button
+              variant="contained"
+              endIcon={!isSubmitting && <SendIcon />}
+              onClick={sendEmail}
+              disabled={isSubmitting}
+            >
+              {isSubmitting ? 'Sending...' : 'Send'}
             </Button>
           </Box>
         </div>
