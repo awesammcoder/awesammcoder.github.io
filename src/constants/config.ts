@@ -144,7 +144,7 @@ export const PROJECTS = [
   {
     id: "parakeet",
     title: "Parakeet - Communication Platform for the Incarcerated",
-    description: "A compassionate communication platform designed to help incarcerated individuals stay connected with their loved ones. Built with React, Next.js, and integrated with Claude and ChatGPT, it offers real-time messaging and select AI-powered features to support meaningful conversations and emotional connection. The system emphasizes accessibility, privacy, and ease of use—bridging the gap between confinement and the outside world through thoughtful design and scalable architecture\n",
+    description: "A compassionate communication platform designed to help incarcerated individuals stay connected with their loved ones. It offers real-time messaging and select AI-powered features to support meaningful conversations and emotional connection. The system emphasizes accessibility, privacy, and ease of use—bridging the gap between confinement and the outside world through thoughtful design and scalable architecture.",
     images: [
       require("../assets/images/projects/parakeet.png"),
     ],
@@ -154,7 +154,7 @@ export const PROJECTS = [
   {
     id: "aifilter",
     title: "AIFilter – Semantic Email Filtering with AI",
-    description: "AIFilter is a next-generation email filtering system that replaces rigid syntax rules with semantic intelligence. Powered by ChatGPT and designed with ExpressJS, TypeScript, and Webhooks, it understands the meaning behind messages to classify and route emails more accurately. Whether it's payment notifications or nuanced alerts, AIFilter adapts to context, sender variation, and phrasing—offering smarter automation for modern inboxes. Built for scalability and clarity, it showcases how AI can transform traditional workflows into intelligent systems.",
+    description: "A next-generation email filtering system that replaces rigid syntax rules with semantic intelligence. It understands the meaning behind messages to classify and route emails more accurately. Whether it's payment notifications or nuanced alerts, AIFilter adapts to context, sender variation, and phrasing—offering smarter automation for modern inboxes. Built for scalability and clarity, it showcases how AI can transform traditional workflows into intelligent systems.",
     images: [
       require("../assets/images/projects/aifilter.png"),
     ],
@@ -164,7 +164,7 @@ export const PROJECTS = [
   {
     id: "jabberwokcy",
     title: "Jabberwocky – Real-Time Multilingual ChatBot for Twitch",
-    description: "Jabberwocky is a real-time AI-powered chatbot designed to bridge language barriers in live Twitch streams. Built with ExpressJS, TypeScript, and Webhooks, it integrates ChatGPT for contextual understanding and Google Translate for accurate multilingual output. By leveraging the Twitch API, Jabberwocky listens to chat events, translates messages on the fly, and responds with natural, localized replies—enhancing accessibility and engagement for global audiences.",
+    description: "A real-time AI-powered chatbot designed to bridge language barriers in live Twitch streams. It listens to chat events, translates messages on the fly, and responds with natural, localized replies—enhancing accessibility and engagement for global audiences. The bot provides contextual understanding for accurate multilingual output, making streams more inclusive for international viewers.",
     images: [
       require("../assets/images/projects/jabberwocky.png"),
     ],
@@ -174,7 +174,7 @@ export const PROJECTS = [
   {
     id: "vamp",
     title: "VAMP - Influencer Marketing Platform",
-    description: "Full stack influencer marketing platform connecting brands with social media influencers. Built with Elixir (Phoenix Framework), EmberJS, and Instagram API integration.",
+    description: "Full stack influencer marketing platform connecting brands with social media influencers. Features seamless data synchronization with social media platforms, campaign management, and analytics for both brands and content creators.",
     images: [
       require("../assets/images/projects/vamp.png"),
     ],
@@ -184,7 +184,7 @@ export const PROJECTS = [
   {
     id: "pickgoals",
     title: "Pickgoals - Goal Tracking Application",
-    description: "Comprehensive goal tracking and management application built with React, Node.js, and MongoDB. Features progress tracking, analytics, and social sharing capabilities.",
+    description: "Comprehensive goal tracking and management application. Features progress tracking, analytics, and social sharing capabilities to help users stay motivated and achieve their personal and professional objectives.",
     images: [
       require("../assets/images/projects/pg-1.png"),
       require("../assets/images/projects/pg-2.png")
@@ -195,7 +195,7 @@ export const PROJECTS = [
   {
     id: "cms",
     title: "Casino Management System",
-    description: "Full-featured content management system built with Vue.js and Node.js. Includes rich text editing, media management, user roles, and SEO optimization tools.",
+    description: "Full-featured content management system for casino operations. Includes rich text editing, media management, user roles, and SEO optimization tools. Designed for efficiency and scalability in managing complex casino workflows.",
     images: [
       require("../assets/images/projects/cms-2.png"),
       require("../assets/images/projects/cms-1.png"),
@@ -206,7 +206,7 @@ export const PROJECTS = [
   {
     id: "wallet-app",
     title: "Wallet App - Digital Wallet Solution",
-    description: "Modern digital wallet application for secure financial transactions. Built with React Native, Expo, and integrated with payment gateways for seamless user experience.",
+    description: "Modern digital wallet application for secure financial transactions. Integrated with payment gateways for seamless user experience, featuring transaction history, balance management, and secure authentication.",
     images: [
       require("../assets/images/projects/wallet-app.png")
     ],
@@ -216,7 +216,7 @@ export const PROJECTS = [
   {
     id: "expenses",
     title: "Expense Tracker",
-    description: "Personal finance management application for tracking expenses and budgets. Built with React and Express.js, featuring data visualization and export capabilities.",
+    description: "Personal finance management application for tracking expenses and budgets. Features data visualization and export capabilities to help users understand their spending patterns and make informed financial decisions.",
     images: [
       require("../assets/images/projects/expenses.png")
     ],
@@ -226,7 +226,7 @@ export const PROJECTS = [
   {
     id: "freight-calculator",
     title: "Freight Calculator",
-    description: "Logistics calculation tool for freight and shipping costs. Developed with Vue.js and Laravel, integrating multiple carrier APIs for real-time pricing.",
+    description: "Logistics calculation tool for freight and shipping costs. Integrates multiple carrier APIs for real-time pricing, enabling users to compare rates and choose the most cost-effective shipping options.",
     images: [
       require("../assets/images/projects/freight-calculator.png"),
     ],

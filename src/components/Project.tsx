@@ -101,6 +101,13 @@ function Project() {
                                 {isExpanded ? 'Read Less' : 'Read More'}
                             </button>
                         )}
+                        <div className="tech-badges">
+                            {project.technologies.map((tech, idx) => (
+                                <span key={idx} className="tech-badge">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
                         {project.images.length > 1 && (
                             <p style={{ fontSize: '0.9em', color: '#888', marginTop: '10px' }}>
                                 Click image to view {project.images.length} photos

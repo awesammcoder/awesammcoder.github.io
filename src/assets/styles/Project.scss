@@ -62,6 +62,33 @@
     color: #7033e6;
 }
 
+/* Technology Badges */
+.tech-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tech-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: rgba(80, 0, 202, 0.1);
+    border: 1px solid rgba(80, 0, 202, 0.3);
+    color: #a78bfa;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+    background-color: rgba(80, 0, 202, 0.2);
+    border-color: rgba(80, 0, 202, 0.5);
+    transform: translateY(-2px);
+}
+
 /* Pagination Styles */
 .pagination {
     display: flex;
@@ -130,6 +157,17 @@
 
     .read-more-btn:hover {
         color: #7033e6;
+    }
+
+    .tech-badge {
+        background-color: rgba(80, 0, 202, 0.08);
+        border-color: rgba(80, 0, 202, 0.25);
+        color: #5000ca;
+    }
+
+    .tech-badge:hover {
+        background-color: rgba(80, 0, 202, 0.15);
+        border-color: rgba(80, 0, 202, 0.4);
     }
 
     .pagination-btn {
