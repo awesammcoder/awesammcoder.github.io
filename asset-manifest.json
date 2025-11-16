@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd96b7ab.css",
-    "main.js": "/static/js/main.588c4f5b.js",
+    "main.css": "/static/css/main.ada46c50.css",
+    "main.js": "/static/js/main.c7777052.js",
     "static/js/453.32324bdf.chunk.js": "/static/js/453.32324bdf.chunk.js",
     "static/media/freight-calculator.png": "/static/media/freight-calculator.524c5b68af3bf2e3b11f.png",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
@@ -16,12 +16,12 @@
     "static/media/cms-2.png": "/static/media/cms-2.c789ee18e41d0b7ec407.png",
     "static/media/awesammcoder.jpg": "/static/media/awesammcoder.17c4dbf4b578e4af8fda.jpg",
     "index.html": "/index.html",
-    "main.cd96b7ab.css.map": "/static/css/main.cd96b7ab.css.map",
-    "main.588c4f5b.js.map": "/static/js/main.588c4f5b.js.map",
+    "main.ada46c50.css.map": "/static/css/main.ada46c50.css.map",
+    "main.c7777052.js.map": "/static/js/main.c7777052.js.map",
     "453.32324bdf.chunk.js.map": "/static/js/453.32324bdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd96b7ab.css",
-    "static/js/main.588c4f5b.js"
+    "static/css/main.ada46c50.css",
+    "static/js/main.c7777052.js"
   ]
 }

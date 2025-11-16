@@ -31,11 +31,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build portfolio",
+    "build": "npm run cleanup && react-scripts build && mv build portfolio && npm run move2root",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "node scripts/cleanup.mjs && npm run build && node scripts/move-to-root.mjs && git push",
+    "cleanup": "node scripts/cleanup.mjs",
+    "move2root": "node scripts/move-to-root.mjs",
+    "deploy": "claude /commit && git push",
     "serve": "node_modules/.bin/http-server . -p 8000"
   },
   "eslintConfig": {
