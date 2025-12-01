@@ -291,7 +291,7 @@ export const TESTIMONIALS = [
   {
     id: "studio-corsair",
     name: "Jordan Rejaud",
-    company: "Studio Corsair",
+    company: "Studio Corsair's CEO",
     videoUrl: "/videos/jordan-rejaud.mp4",
     thumbnail: "", // Optional: Path to video thumbnail
     quote: "Sam is among the best programmers I’ve hired—any team would be lucky to have him.",
