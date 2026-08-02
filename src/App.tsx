@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
-  Timeline,
   Expertise,
   Project,
   Testimonials,
@@ -36,7 +35,6 @@ function App() {
             <Expertise/>
             <Project/>
             <Testimonials/>
-            <Timeline/>
             <Booking/>
             <Contact/>
         </FadeIn>

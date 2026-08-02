@@ -71,7 +71,6 @@ function Contact() {
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <div style={{ marginBottom: '20px', padding: '15px', borderRadius: '8px' }}>
             <p style={{ margin: '5px 0' }}><strong>Email:</strong> <a href={`mailto:${PERSONAL_INFO.email}`}>{PERSONAL_INFO.email}</a></p>
-            <p style={{ margin: '5px 0' }}><strong>Phone:</strong> <a href={`tel:${PERSONAL_INFO.phone}`}>{PERSONAL_INFO.phone}</a></p>
             <p style={{ margin: '5px 0' }}><strong>Location:</strong> {PERSONAL_INFO.location}</p>
           </div>
 

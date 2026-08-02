@@ -1,13 +1,29 @@
+// Start of professional experience — May 2017, the iFormatLogic IT Solutions role
+// in WORK_EXPERIENCE below. Month is 0-indexed, so 4 = May.
+const CAREER_START = new Date(2017, 4, 1);
+
+// Completed years since CAREER_START, so the site never advertises a year that
+// hasn't finished yet and never goes stale.
+const completedYearsSince = (start: Date): number => {
+  const now = new Date();
+  let years = now.getFullYear() - start.getFullYear();
+  const monthsIntoYear = now.getMonth() - start.getMonth();
+  if (monthsIntoYear < 0 || (monthsIntoYear === 0 && now.getDate() < start.getDate())) {
+    years -= 1;
+  }
+  return years;
+};
+
 // Personal Information
 export const PERSONAL_INFO = {
   name: "Sammuel Apa",
   title: "Full Stack JavaScript Developer",
   subtitle: "AI Integration Specialist | Real-Time Application Expert",
   email: "awesammcoder@gmail.com",
-  phone: "+63-916-650-1154",
-  location: "San Rafael, Macabebe, Pampanga, Philippines",
+  // Region only — no phone number and no street address is published.
+  location: "Pampanga, Philippines",
   profileImage: require("../assets/images/personal/awesammcoder.jpg"),
-  yearsOfExperience: 8,
+  yearsOfExperience: completedYearsSince(CAREER_START),
 };
 
 // Social Media Links
@@ -25,7 +41,7 @@ export const SOCIAL_LINKS = {
 // Website Information
 export const WEBSITE_INFO = {
   title: "Sammuel Apa - Full Stack JavaScript Developer | React, Next.js, Node.js Expert",
-  description: "Full Stack JavaScript Developer with 8+ years experience. Expert in React, Next.js, Vue.js, Node.js, AI integration (Claude API, ChatGPT), and real-time applications. Available for hire.",
+  description: `Full Stack JavaScript Developer with ${PERSONAL_INFO.yearsOfExperience}+ years experience. Expert in React, Next.js, Vue.js, Node.js, AI integration (Claude API, ChatGPT), and real-time applications. Available for hire.`,
   keywords: "full stack developer, javascript developer, react developer, nextjs developer, nodejs developer, AI integration, WebRTC, remote developer philippines, sammuel apa",
   url: "https://awesammcoder.github.io/",
   ogImage: "https://awesammcoder.github.io/images/personal/awesammcoder.jpg",
@@ -141,6 +157,28 @@ export const WORK_EXPERIENCE = [
 
 // Projects with multiple images
 export const PROJECTS = [
+  {
+    id: "easychords",
+    title: "EasyChords – Offline-First Chord Songbook PWA",
+    description: "An offline-first chord songbook for musicians playing live. Song sheets live on the device in IndexedDB, so it works with no connectivity on stage. One-tap transposition to any key with a sharp/flat toggle, hands-free autoscroll with speed control, and guitar and piano diagrams for any chord. Songs are stored in a ChordPro-lite format with auto-reformatting of pasted sheets, alongside a searchable library, setlists with a performance mode, a standalone chord dictionary, adjustable sheet text size, optional AI screenshot import, and JSON export/import for backups.",
+    images: [
+      require("../assets/images/projects/easychords-1.png"),
+      require("../assets/images/projects/easychords-2.png"),
+    ],
+    technologies: ["React", "Vite", "PWA", "Service Worker", "IndexedDB", "Claude API"],
+    link: "https://chords.devstudiolabs.com",
+  },
+  {
+    id: "salary-ledger",
+    title: "Salary Ledger – Payment Tracking PWA",
+    description: "Freelancers and contract workers lose track of which worked days have actually been paid for. This app logs each payment and the period it covers, then colours a calendar by day state — paid, partial, unpaid, received, or excused — and rolls the result into running totals for days covered versus days unpaid. Unpaid stretches are detected automatically and listed as date ranges, partial payments track the balance still owed, and amounts convert between USDT and PHP. Fully offline and installable, with no backend and no accounts — all data stays on the device.",
+    images: [
+      require("../assets/images/projects/salary-ledger-1.png"),
+      require("../assets/images/projects/salary-ledger-2.png"),
+    ],
+    technologies: ["React", "Vite", "PWA", "Workbox", "IndexedDB"],
+    link: "https://ledger.devstudiolabs.com",
+  },
   {
     id: "parakeet",
     title: "Parakeet - Communication Platform for the Incarcerated",
