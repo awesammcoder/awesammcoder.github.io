@@ -1,3 +1,20 @@
+import imgAwesammcoder from "../assets/images/personal/awesammcoder.jpg";
+import imgEasychords1 from "../assets/images/projects/easychords-1.png";
+import imgEasychords2 from "../assets/images/projects/easychords-2.png";
+import imgSalaryLedger1 from "../assets/images/projects/salary-ledger-1.png";
+import imgSalaryLedger2 from "../assets/images/projects/salary-ledger-2.png";
+import imgParakeet from "../assets/images/projects/parakeet.png";
+import imgAifilter from "../assets/images/projects/aifilter.png";
+import imgJabberwocky from "../assets/images/projects/jabberwocky.png";
+import imgVamp from "../assets/images/projects/vamp.png";
+import imgPg1 from "../assets/images/projects/pg-1.png";
+import imgPg2 from "../assets/images/projects/pg-2.png";
+import imgCms2 from "../assets/images/projects/cms-2.png";
+import imgCms1 from "../assets/images/projects/cms-1.png";
+import imgWalletApp from "../assets/images/projects/wallet-app.png";
+import imgExpenses from "../assets/images/projects/expenses.png";
+import imgFreightCalculator from "../assets/images/projects/freight-calculator.png";
+
 // Start of professional experience — May 2017, the iFormatLogic IT Solutions role
 // in WORK_EXPERIENCE below. Month is 0-indexed, so 4 = May.
 const CAREER_START = new Date(2017, 4, 1);
@@ -22,7 +39,7 @@ export const PERSONAL_INFO = {
   email: "awesammcoder@gmail.com",
   // Region only — no phone number and no street address is published.
   location: "Pampanga, Philippines",
-  profileImage: require("../assets/images/personal/awesammcoder.jpg"),
+  profileImage: imgAwesammcoder,
   yearsOfExperience: completedYearsSince(CAREER_START),
 };
 
@@ -162,8 +179,8 @@ export const PROJECTS = [
     title: "EasyChords – Offline-First Chord Songbook PWA",
     description: "An offline-first chord songbook for musicians playing live. Song sheets live on the device in IndexedDB, so it works with no connectivity on stage. One-tap transposition to any key with a sharp/flat toggle, hands-free autoscroll with speed control, and guitar and piano diagrams for any chord. Songs are stored in a ChordPro-lite format with auto-reformatting of pasted sheets, alongside a searchable library, setlists with a performance mode, a standalone chord dictionary, adjustable sheet text size, optional AI screenshot import, and JSON export/import for backups.",
     images: [
-      require("../assets/images/projects/easychords-1.png"),
-      require("../assets/images/projects/easychords-2.png"),
+      imgEasychords1,
+      imgEasychords2,
     ],
     technologies: ["React", "Vite", "PWA", "Service Worker", "IndexedDB", "Claude API"],
     link: "https://chords.devstudiolabs.com",
@@ -173,8 +190,8 @@ export const PROJECTS = [
     title: "Salary Ledger – Payment Tracking PWA",
     description: "Freelancers and contract workers lose track of which worked days have actually been paid for. This app logs each payment and the period it covers, then colours a calendar by day state — paid, partial, unpaid, received, or excused — and rolls the result into running totals for days covered versus days unpaid. Unpaid stretches are detected automatically and listed as date ranges, partial payments track the balance still owed, and amounts convert between USDT and PHP. Fully offline and installable, with no backend and no accounts — all data stays on the device.",
     images: [
-      require("../assets/images/projects/salary-ledger-1.png"),
-      require("../assets/images/projects/salary-ledger-2.png"),
+      imgSalaryLedger1,
+      imgSalaryLedger2,
     ],
     technologies: ["React", "Vite", "PWA", "Workbox", "IndexedDB"],
     link: "https://ledger.devstudiolabs.com",
@@ -184,7 +201,7 @@ export const PROJECTS = [
     title: "Parakeet - Communication Platform for the Incarcerated",
     description: "A compassionate communication platform designed to help incarcerated individuals stay connected with their loved ones. It offers real-time messaging and select AI-powered features to support meaningful conversations and emotional connection. The system emphasizes accessibility, privacy, and ease of use—bridging the gap between confinement and the outside world through thoughtful design and scalable architecture.",
     images: [
-      require("../assets/images/projects/parakeet.png"),
+      imgParakeet,
     ],
     technologies: ["React", "Next.js", "Claude API", "WebSockets"],
     link: "",
@@ -194,7 +211,7 @@ export const PROJECTS = [
     title: "AIFilter – Semantic Email Filtering with AI",
     description: "A next-generation email filtering system that replaces rigid syntax rules with semantic intelligence. It understands the meaning behind messages to classify and route emails more accurately. Whether it's payment notifications or nuanced alerts, AIFilter adapts to context, sender variation, and phrasing—offering smarter automation for modern inboxes. Built for scalability and clarity, it showcases how AI can transform traditional workflows into intelligent systems.",
     images: [
-      require("../assets/images/projects/aifilter.png"),
+      imgAifilter,
     ],
     technologies: ["ExpressJS", "React", "TailwindCSS", "TypeScript", "ChatGPT","Webhooks"],
     link: "https://aifilter.email",
@@ -204,7 +221,7 @@ export const PROJECTS = [
     title: "Jabberwocky – Real-Time Multilingual ChatBot for Twitch",
     description: "A real-time AI-powered chatbot designed to bridge language barriers in live Twitch streams. It listens to chat events, translates messages on the fly, and responds with natural, localized replies—enhancing accessibility and engagement for global audiences. The bot provides contextual understanding for accurate multilingual output, making streams more inclusive for international viewers.",
     images: [
-      require("../assets/images/projects/jabberwocky.png"),
+      imgJabberwocky,
     ],
     technologies: ["ExpressJS", "OpenAI - ChatGPT", "Webhooks", "Google TranslateAPI", "Twitch API"],
     link: "",
@@ -214,7 +231,7 @@ export const PROJECTS = [
     title: "VAMP - Influencer Marketing Platform",
     description: "Full stack influencer marketing platform connecting brands with social media influencers. Features seamless data synchronization with social media platforms, campaign management, and analytics for both brands and content creators.",
     images: [
-      require("../assets/images/projects/vamp.png"),
+      imgVamp,
     ],
     technologies: ["Elixir", "Phoenix", "EmberJS", "Instagram API"],
     link: "https://vamp.com",
@@ -224,8 +241,8 @@ export const PROJECTS = [
     title: "Pickgoals - Goal Tracking Application",
     description: "Comprehensive goal tracking and management application. Features progress tracking, analytics, and social sharing capabilities to help users stay motivated and achieve their personal and professional objectives.",
     images: [
-      require("../assets/images/projects/pg-1.png"),
-      require("../assets/images/projects/pg-2.png")
+      imgPg1,
+      imgPg2
     ],
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     link: "",
@@ -235,8 +252,8 @@ export const PROJECTS = [
     title: "Casino Management System",
     description: "Full-featured content management system for casino operations. Includes rich text editing, media management, user roles, and SEO optimization tools. Designed for efficiency and scalability in managing complex casino workflows.",
     images: [
-      require("../assets/images/projects/cms-2.png"),
-      require("../assets/images/projects/cms-1.png"),
+      imgCms2,
+      imgCms1,
     ],
     technologies: ["Vue.js", "Node.js", "MongoDB"],
     link: "",
@@ -246,7 +263,7 @@ export const PROJECTS = [
     title: "Wallet App - Digital Wallet Solution",
     description: "Modern digital wallet application for secure financial transactions. Integrated with payment gateways for seamless user experience, featuring transaction history, balance management, and secure authentication.",
     images: [
-      require("../assets/images/projects/wallet-app.png")
+      imgWalletApp
     ],
     technologies: ["React Native", "Expo", "Payment Gateway"],
     link: "",
@@ -256,7 +273,7 @@ export const PROJECTS = [
     title: "Expense Tracker",
     description: "Personal finance management application for tracking expenses and budgets. Features data visualization and export capabilities to help users understand their spending patterns and make informed financial decisions.",
     images: [
-      require("../assets/images/projects/expenses.png")
+      imgExpenses
     ],
     technologies: ["React", "Express.js", "Chart.js"],
     link: "",
@@ -266,7 +283,7 @@ export const PROJECTS = [
     title: "Freight Calculator",
     description: "Logistics calculation tool for freight and shipping costs. Integrates multiple carrier APIs for real-time pricing, enabling users to compare rates and choose the most cost-effective shipping options.",
     images: [
-      require("../assets/images/projects/freight-calculator.png"),
+      imgFreightCalculator,
     ],
     technologies: ["Vue.js", "Laravel", "Carrier APIs"],
     link: "",

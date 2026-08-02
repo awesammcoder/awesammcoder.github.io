@@ -8,7 +8,8 @@
 # testing
 /coverage
 
-# production
+# build output — produced by CI and published to Pages, never committed
+/dist
 /build
 
 # misc
