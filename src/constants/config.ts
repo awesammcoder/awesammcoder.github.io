@@ -1,4 +1,8 @@
 import imgAwesammcoder from "../assets/images/personal/awesammcoder.jpg";
+import imgTuxxFetch1 from "../assets/images/projects/tuxx-fetch-1.png";
+import imgTuxxFetch2 from "../assets/images/projects/tuxx-fetch-2.png";
+import imgChatPilot from "../assets/images/projects/chat-pilot-1.png";
+import imgVoiceClaude from "../assets/images/projects/voice-claude-1.png";
 import imgEasychords1 from "../assets/images/projects/easychords-1.png";
 import imgEasychords2 from "../assets/images/projects/easychords-2.png";
 import imgSalaryLedger1 from "../assets/images/projects/salary-ledger-1.png";
@@ -174,6 +178,37 @@ export const WORK_EXPERIENCE = [
 
 // Projects with multiple images
 export const PROJECTS = [
+  {
+    id: "tuxx-fetch",
+    title: "Tuxx, Fetch! – Click-to-Source Chrome Extension for React",
+    description: "A published Chrome extension that turns any React dev server into a click-to-source surface: hold a key, click a component, and the editor opens on the exact line. It reads React fibers directly (_debugSource on React ≤18, _debugStack on React 19+), decodes source maps in the browser and launches cursor:// or vscode:// links, so nothing is added to the project: no Babel, Vite or SWC plugin and no REACT_EDITOR. A second mode is a framework-agnostic design inspector that shows typography, box model, colors and classes from getComputedStyle() on any page. Verified on React 19, Next.js 16 and Turbopack, with zero runtime dependencies.",
+    images: [
+      imgTuxxFetch1,
+      imgTuxxFetch2,
+    ],
+    technologies: ["Chrome Extensions (MV3)", "JavaScript", "React Internals", "Source Maps", "Cloudflare Pages"],
+    link: "https://tuxx.devstudiolabs.com",
+  },
+  {
+    id: "chat-pilot",
+    title: "chat-pilot – AI Agent Desk for GitHub, Slack and WhatsApp",
+    description: "A desktop agent workspace that watches GitHub, Slack and WhatsApp for work aimed at me and acts on it behind safety gates enforced in code, not in prompts. An always-on Node daemon stores events, applies rules and keeps an audit log; a small Claude model (Haiku) triages each event's intent, and a background Claude Code session runs playbooks such as reviewing a requested PR and queuing an approval tied to the exact commit. The Electron app runs each tab as a Claude Code CLI session over stream-json, with inline permission prompts, an approvals queue, live event stream, rules editor and dry-run/pause switches. An MCP server exposes the watcher to any Claude session, and a browser extension feeds Slack and WhatsApp events. Zero npm dependencies beyond Electron.",
+    images: [
+      imgChatPilot,
+    ],
+    technologies: ["Node.js", "Electron", "Claude Code", "MCP", "Claude API (Haiku)", "Chrome Extensions (MV3)", "GitHub API"],
+    link: "",
+  },
+  {
+    id: "voice-claude",
+    title: "voice-claude – Always-Listening Voice Assistant",
+    description: "A hands-free, \"hey jarvis\" voice assistant for the desktop. Wake-word detection (openWakeWord) and a speaker-verification filter (TitaNet embeddings) make sure it only answers its owner; speech is transcribed locally with Whisper and replies are spoken with Piper TTS, all on CPU. The brain is the Claude Agent SDK with custom tools, including one that shows cards in a transparent, click-through GTK4/WebKit overlay. Reads run freely while writes are confirmed by voice through a PreToolUse hook, and helper agents run in parallel with live status pills. A nightly job keeps a knowledge graph of notes and projects fresh for context.",
+    images: [
+      imgVoiceClaude,
+    ],
+    technologies: ["Python", "Claude Agent SDK", "Whisper", "Piper TTS", "openWakeWord", "GTK4 / WebKit", "Speaker Verification"],
+    link: "",
+  },
   {
     id: "easychords",
     title: "EasyChords – Offline-First Chord Songbook PWA",

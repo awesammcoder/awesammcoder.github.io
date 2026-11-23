@@ -1,0 +1,234 @@
+<!doctype html>
+<!-- Source for public/resume.pdf. Render with: node resume/render.cjs -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sammuel Apa – Resume</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root { --ink: #222; --mut: #5b5b5b; --acc: #6a4fc9; --dark: #2b2725; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #fff; }
+  body { font: 300 8.9pt/1.38 Poppins, system-ui, sans-serif; color: var(--mut); -webkit-print-color-adjust: exact; print-color-adjust: exact; font-kerning: none; font-feature-settings: "kern" 0, "liga" 0; text-rendering: geometricPrecision; }
+  b, strong { font-weight: 500; color: var(--ink); }
+  a { color: inherit; text-decoration: none; }
+
+  header { background: var(--dark); color: #fff; display: grid; grid-template-columns: 130px 1fr auto; align-items: center; gap: 28px; padding: 20px 40px; }
+  header img { width: 124px; height: 124px; border-radius: 50%; object-fit: cover; }
+  header h1 { margin: 0; font: 600 34pt/1 Poppins; letter-spacing: .06em; }
+  header h1 span { display: block; font-weight: 300; }
+  header .role { white-space: nowrap; margin-top: 6px; font-size: 11pt; letter-spacing: .08em; }
+  header ul { list-style: none; margin: 0; padding: 0; text-align: right; font-size: 9pt; line-height: 2.1; }
+
+  main { padding: 12px 40px 20px; }
+  @page { margin: 12mm 0; } @page :first { margin: 0 0 12mm; }
+  h2 { font: 600 15pt/1.2 Poppins; color: var(--ink); margin: 10px 0 5px; break-after: avoid; }
+  p { margin: 0; }
+
+  .stacks { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+  .stack { margin-bottom: 5px; break-inside: avoid; }
+  .stack h4 { margin: 0; font: 600 9.4pt Poppins; color: var(--ink); }
+  .stack h4 em { font: 500 7pt Poppins; font-style: normal; color: #fff; background: var(--acc); border-radius: 3px; padding: 1px 5px; margin-left: 4px; vertical-align: 1px; letter-spacing: .04em; }
+  .stack p { padding-left: 10px; }
+
+  .job { display: grid; grid-template-columns: 120px 1fr; gap: 16px; margin-bottom: 7px; break-inside: avoid; }
+  .job .when { color: var(--ink); font-weight: 400; }
+  .job h3 { margin: 0; font: 500 11.5pt Poppins; color: var(--ink); }
+  .job .org { color: var(--acc); font-weight: 400; }
+  ul.b { margin: 2px 0 0; padding-left: 16px; }
+  ul.b li { margin: 1px 0; }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+  .proj { margin-bottom: 7px; break-inside: avoid; }
+  .proj h3 { margin: 0; font: 500 10.5pt Poppins; color: var(--ink); }
+  .proj .org { color: var(--acc); }
+  .proj .tech { color: var(--ink); font-weight: 400; }
+  .edu, .ref { break-inside: avoid; }
+  .edu { display: grid; grid-template-columns: 80px 1fr; gap: 2px 10px; margin-bottom: 6px; }
+  .edu h3 { margin: 0; font: 500 10.5pt Poppins; color: var(--ink); }
+  .ref h3 { margin: 0; font: 500 10.5pt Poppins; color: var(--ink); }
+  .page-break { break-before: page; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../src/assets/images/personal/awesammcoder.jpg" alt="">
+  <div>
+    <h1>Sammuel<span>Apa</span></h1>
+    <div class="role">Full Stack Developer · AI Integration</div>
+  </div>
+  <ul>
+    <li>+63-916-650-1154</li>
+    <li>awesammcoder@gmail.com</li>
+    <li>San Rafael, Macabebe, Pampanga</li>
+    <li>https://awesammcoder.github.io</li>
+  </ul>
+</header>
+
+<main>
+  <h2>Professional Summary</h2>
+  <p>Full Stack Developer with 9+ years of experience building scalable web, mobile and desktop applications across the JavaScript/TypeScript and PHP ecosystems. Today I build <b>AI-native products</b>: LLM agents with tool calling, MCP servers, RAG with pgvector and voice interfaces, on a modern stack of <b>Next.js 16, React 19, TypeScript, Hono, Prisma and Expo</b> in Turborepo monorepos. My earlier work with Laravel, CodeIgniter, Elixir/Phoenix, Vue, Cordova and Ionic lets me step into legacy codebases as easily as new ones. I've also handled real-time systems (WebRTC, WebSockets), CI/CD and production DevOps, from database design through deployment.</p>
+
+  <h2>Tech Stacks</h2>
+  <div class="stacks">
+    <div>
+      <div class="stack"><h4>AI &amp; Agents <em>CURRENT</em></h4><p>Claude API &amp; Claude Agent SDK, Claude Code, Model Context Protocol (MCP), OpenAI API, Gemini | Agentic tool-calling loops, multi-agent orchestration, human-in-the-loop approvals | RAG with pgvector | Whisper, Piper TTS, voice activity detection</p></div>
+      <div class="stack"><h4>Languages</h4><p>TypeScript, JavaScript, Python, PHP, SQL, Bash/Shell, HTML5, CSS3, C#, Elixir</p></div>
+      <div class="stack"><h4>Frontend <em>CURRENT</em></h4><p>React 19, Next.js 16 (App Router, Server Actions), Tailwind CSS v4, Redux Toolkit / RTK Query, next-intl (i18n), Framer Motion, Three.js (React Three Fiber) | Vue.js, Svelte/SvelteKit, SCSS | PWAs, Responsive Design</p></div>
+      <div class="stack"><h4>Backend</h4><p>Node.js: Hono (OpenAPI), Express, Next.js API Routes, SvelteKit | Zod schema validation | PHP: Laravel, CodeIgniter, WordPress | RESTful APIs, GraphQL, WebRTC, WebSockets, Socket.IO, RTSP</p></div>
+      <div class="stack"><h4>Mobile &amp; Desktop</h4><p>Expo &amp; React Native (expo-router, NativeWind), Capacitor | Electron | Chrome Extensions (Manifest V3) | Cordova, Ionic</p></div>
+      <div class="stack"><h4>Databases</h4><p>PostgreSQL + pgvector, Prisma ORM, MySQL, MongoDB, Firebase, Redis | Knex.js</p></div>
+    </div>
+    <div>
+      <div class="stack"><h4>DevOps &amp; Infrastructure</h4><p>Monorepos: Turborepo, pnpm workspaces | CI/CD: GitHub Actions, CircleCI | Docker, Docker Compose, Kubernetes, PM2 | AWS (S3), DigitalOcean, Vultr | Cloudflare (Pages, Turnstile), Vercel, Netlify, Coolify | Nginx, Caddy, Apache | systemd</p></div>
+      <div class="stack"><h4>Integrations &amp; Automation</h4><p>Stripe billing, Twilio (Voice, Video), Google APIs (OAuth, Gmail, Calendar, Drive), Notion API, WhatsApp, Telegram | n8n, Zapier, HubSpot | Webhook design and API integrations</p></div>
+      <div class="stack"><h4>Security</h4><p>OAuth state signing, CSRF protection, JWT (jose), account-takeover and IDOR fixes, rate limiting, bot protection</p></div>
+      <div class="stack"><h4>Testing &amp; Quality <em>CURRENT</em></h4><p>Vitest, Playwright (E2E in CI), Jest, Mocha | ESLint, Husky, lint-staged | Test-Driven Development, code review with AI agents</p></div>
+      <div class="stack"><h4>Tools &amp; Libraries</h4><p>Task queues: BullMQ, TaskForce | Browser automation: Puppeteer, Playwright | Source maps, React internals (fibers)</p></div>
+      <div class="stack"><h4>Data &amp; ML</h4><p>Metabase, data visualization and BI | Knowledge graphs | TensorFlow, PyTorch (predictive analytics)</p></div>
+    </div>
+  </div>
+
+  <h2>Work Experience</h2>
+  <div class="job">
+    <div class="when">Jan. 2026 -<br>Present</div>
+    <div>
+      <h3>Full Stack Developer (Side Project)</h3>
+      <div class="org">LifeOS by Venturis 13 | Remote | AI-powered life and corporate operating system</div>
+      <ul class="b">
+        <li>Built features across a TypeScript Turborepo monorepo: Hono API, Next.js 16 / React 19 web app and an Expo mobile app on PostgreSQL + Prisma</li>
+        <li>Extended the ATHENA and TARA AI agents with tool calling, including phone calls placed through Twilio behind user approval, Gmail/Calendar/Drive automations and pgvector semantic search over user documents</li>
+        <li>Shipped the invitation campaign site end to end: registration, email verification, referral sharing and sign-in screens in 11 languages with Cloudflare Turnstile bot protection</li>
+        <li>Hardened security: signed OAuth state on integration connections, closed invite-acceptance account-takeover paths, verified-email checks on Google sign-in and removed token logging</li>
+        <li>Added a Playwright E2E job to CircleCI and worked within a plan → review → CI-gated merge process, plus Stripe billing and subscription-plan changes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">April 2024 -<br>Dec. 2025</div>
+    <div>
+      <h3>Full Stack Javascript Developer</h3>
+      <div class="org">Studio Corsair | San Francisco, California (Remote) | https://parakeet.chat | https://aifilter.email</div>
+      <ul class="b">
+        <li>Architected and deployed full-stack solutions for enterprise clients, implementing CI/CD pipelines with GitHub Actions and CircleCI to significantly reduce deployment time and ensure zero-downtime releases</li>
+        <li>Led cross-functional collaboration to design, develop, and ship production features using ReactJS, Express.JS, Node.js, and TypeScript, resulting in improved code maintainability and faster feature delivery</li>
+        <li>Optimized application performance through code quality automation with ESLint and custom linting rules, significantly reducing bug reports and improving overall code consistency across teams</li>
+        <li>Implemented robust task management systems using BullMQ and TaskForce to handle asynchronous processing, improving system reliability and reducing server load</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">Oct. 2023 -<br>April 2024</div>
+    <div>
+      <h3>IT Manager/Fullstack Developer</h3>
+      <div class="org">1001 Technology Solutions | Chiang Mai, Thailand (On-site) | https://pickgoals.com</div>
+      <ul class="b">
+        <li>Drove technological alignment with business objectives by overseeing full-stack software development initiatives, resulting in measurable improvement in operational efficiency across multiple departments</li>
+        <li>Delivered scalable enterprise solutions using Express.JS, Node.JS, Vue.JS, ReactNative, and Expo to meet complex organizational requirements</li>
+        <li>Managed development lifecycle for web and mobile applications using Laravel and Cordova, ensuring timely delivery of 15+ production features within 6-month period</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="job">
+    <div class="when">May 2019 -<br>Oct. 2023</div>
+    <div>
+      <h3>Asst. IT Manager/Full Stack Application Developer</h3>
+      <div class="org">Lihao International Ltd. Co | Sihanoukville, Cambodia (On-site) | https://lihao-international.com</div>
+      <ul class="b">
+        <li>Spearheaded development team in building comprehensive full-stack applications for web and mobile platforms using Express.JS, Node.JS, Vue.js, ReactJS, C#, and PHP frameworks (Laravel and CodeIgniter), serving 50,000+ registered users</li>
+        <li>Designed and implemented cloud infrastructure including load balancers, CentOS server configurations, Apache, Nginx, and Reverse Proxy solutions, achieving 99.9% uptime</li>
+        <li>Pioneered machine learning integration using TensorFlow and PyTorch for predictive analytics, significantly improving business intelligence capabilities and data-driven decision-making processes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">Nov. 2018 -<br>May 2019</div>
+    <div>
+      <h3>Software Developer</h3>
+      <div class="org">Saver6.com Inc. | Olongapo City, Philippines</div>
+      <ul class="b">
+        <li>Modernized legacy applications by migrating mobile apps to Expo.io, React Native, and ReactJS, and rebuilding web platforms using hybrid frameworks (Cordova and Ionic), resulting in significant performance improvement and enhanced user experience</li>
+        <li>Enhanced application functionality by implementing modern JavaScript frameworks and libraries (Laravel), improving load times and increasing user engagement</li>
+        <li>Optimized development workflow by introducing standardized coding practices and component-based architecture, reducing development time for new features</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">Feb. 2018 -<br>Nov. 2018</div>
+    <div>
+      <h3>Software Engineer II</h3>
+      <div class="org">Cloudstaff Inc. &amp; VAMP (Client) | Pasig City, Philippines | https://vamp.com</div>
+      <ul class="b">
+        <li>Developed high-impact influencer platform for major brands using full-stack technologies (Elixir Phoenix Framework for backend, EmberJS for frontend), facilitating influencer-brand connections that generated $500K+ in campaign value</li>
+        <li>Architected seamless API integrations with Instagram APIs to enable real-time connectivity and data synchronization, supporting 10,000+ influencer profiles</li>
+        <li>Implemented robust data management systems ensuring accurate metrics tracking and reporting for campaign analytics, significantly improving data accuracy</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job">
+    <div class="when">May. 2017 -<br>Feb. 2018</div>
+    <div>
+      <h3>Full Stack PHP Developer</h3>
+      <div class="org">iFormatLogic IT Solutions | Olongapo City, Philippines</div>
+      <ul class="b">
+        <li>Built and maintained enterprise web applications using WordPress, CodeIgniter, Magento, Laravel, and CSZCMS, delivering custom solutions for 20+ clients across diverse industries</li>
+        <li>Collaborated with cross-functional teams to deliver comprehensive IT solutions, enhancing system functionality and achieving high client satisfaction</li>
+        <li>Streamlined development processes by implementing reusable components and standardized frameworks, reducing project delivery time</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="two">
+    <div>
+      <h2>Outside Projects</h2>
+      <div class="proj">
+        <h3>Tuxx, Fetch!</h3>
+        <div class="org">Chrome Web Store | 2026 | tuxx.devstudiolabs.com</div>
+        <div class="tech">Chrome Extension (MV3), JavaScript, Source Maps</div>
+        <ul class="b"><li>Published extension: click any React component and the editor opens on its exact source line, by reading React fibers and decoding source maps in the browser. No build plugins needed.</li></ul>
+      </div>
+      <div class="proj">
+        <h3>chat-pilot</h3>
+        <div class="org">Personal tool | 2026</div>
+        <div class="tech">Node.js, Electron, Claude Code, MCP, Claude API</div>
+        <ul class="b"><li>AI agent desk that watches GitHub, Slack and WhatsApp, triages intent with a small model and runs review playbooks behind approvals, dry-run mode and an audit log.</li></ul>
+      </div>
+      <div class="proj">
+        <h3>voice-claude</h3>
+        <div class="org">Personal tool | 2026</div>
+        <div class="tech">Python, Claude Agent SDK, Whisper, Piper TTS, GTK4</div>
+        <ul class="b"><li>Always-listening voice assistant with wake word, speaker verification, local speech-to-text and TTS, and voice-confirmed actions shown in a desktop overlay.</li></ul>
+      </div>
+      <div class="proj">
+        <h3>EasyChords &amp; Salary Ledger</h3>
+        <div class="org">PWAs | 2026 | chords.devstudiolabs.com · ledger.devstudiolabs.com</div>
+        <div class="tech">React, Vite, Workbox, IndexedDB, Claude API</div>
+        <ul class="b"><li>Offline-first installable apps: a live-performance chord songbook with transposition and AI screenshot import, and a payment tracker for contract workers.</li></ul>
+      </div>
+      <div class="proj">
+        <h3>eGordonCollege · GC CCS &amp; ALCU Voting Systems</h3>
+        <div class="org">Gordon College | Olongapo City | 2016-2017</div>
+        <div class="tech">ReactJS, ExpressJS, Socket.IO, MySQL, Cordova</div>
+        <ul class="b"><li>A PWA learning management system shipped to iOS and Android, plus real-time voting systems for the student council and a pageant.</li></ul>
+      </div>
+    </div>
+    <div>
+      <h2>Education</h2>
+      <div class="edu"><div>2013-2017</div><div><h3>Bachelor of Science in Computer Science</h3><span class="org" style="color:var(--acc)">Gordon College | Olongapo City, Philippines</span></div></div>
+      <div class="edu"><div>2009-2013</div><div><h3>Basic Education Curriculum</h3><span style="color:var(--acc)">Olongapo City National High School | Olongapo City, Philippines</span></div></div>
+      <h2>Certifications</h2>
+      <ul class="b">
+        <li>NCII - Computer Hardware Servicing · TESDA | 2016</li>
+        <li>Proxor 3 Level Certification on Java · Proxor | 2015</li>
+      </ul>
+      <h2>References</h2>
+      <div class="ref" style="margin-bottom:8px"><h3>Rem Abellanes</h3>IT Director, Lihao International Ltd. Co<br><b>Phone:</b> +855-86-900-802<br><b>Email:</b> rem.abellanes@laguna-international.com</div>
+      <div class="ref"><h3>Arnie Armada</h3>College Coordinator, Gordon College<br><b>Phone:</b> +63 939-939-4420<br><b>Email:</b> sagesbox@gmail.com</div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
